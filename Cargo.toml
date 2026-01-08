@@ -1,0 +1,38 @@
+[package]
+name = "rust-async-learning"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.35", features = ["full"] }
+futures = "0.3"
+async-trait = "0.1"
+
+[[bin]]
+name = "01_async_basics"
+path = "src/01_async_basics.rs"
+
+[[bin]]
+name = "02_tokio_spawn"
+path = "src/02_tokio_spawn.rs"
+
+[[bin]]
+name = "03_concurrent_tasks"
+path = "src/03_concurrent_tasks.rs"
+
+[[bin]]
+name = "04_futures_pin"
+path = "src/04_futures_pin.rs"
+
+[[bin]]
+name = "05_send_sync"
+path = "src/05_send_sync.rs"
+
+[[bin]]
+name = "06_channels"
+path = "src/06_channels.rs"
+
+[[bin]]
+name = "07_practical_example"
+path = "src/07_practical_example.rs"
+
