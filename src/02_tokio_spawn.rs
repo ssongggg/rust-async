@@ -30,7 +30,7 @@ async fn basic_spawn() {
     });
     
     println!("📝 主任务继续执行，不会等待 spawn 的任务");
-    
+
     // 使用 JoinHandle 等待任务完成并获取结果
     match handle.await {
         Ok(result) => println!("🎯 任务返回值: {}\n", result),

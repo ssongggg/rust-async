@@ -36,3 +36,11 @@ path = "src/06_channels.rs"
 name = "07_practical_example"
 path = "src/07_practical_example.rs"
 
+[[bin]]
+name = "ownership_example"
+path = "src/ownership_example.rs"
+
+[[bin]]
+name = "test"
+path = "src/test.rs"
+
